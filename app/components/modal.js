@@ -50,6 +50,6 @@ export const Main = styled.main`
 `
 
 export const Footer = styled(Header)`
-  border-top: 0 none;
-  border-bottom: 2px solid rgba(245, 245, 245);
+  border-top: 2px solid rgba(245, 245, 245);
+  border-bottom: 0 none;
 `
