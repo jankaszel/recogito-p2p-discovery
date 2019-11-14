@@ -30,7 +30,6 @@
   "homepage": "https://github.com/falafeljan/recogito-p2p-discovery#readme",
   "dependencies": {
     "events": "^3.0.0",
-    "inter-ui": "^3.11.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.1"
