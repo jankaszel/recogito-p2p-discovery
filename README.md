@@ -22,6 +22,7 @@ Will create a new dialog instance. Is hidden by default.
 - `node` DOM node to mount the React tree in.
 - `targetUrl` Web Annotation target URL.
 - `opts`
+  - `userId` Provide an initial user ID, e.g., stored from previous sessions.
   - `useP2P` If true, will ask for P2P storage. If false, will just ask for user ID, as centralized (default) storage is selected.
   - `allowOutsideClick` Whether or not to dismiss the modal by clicking outside the frame.
 

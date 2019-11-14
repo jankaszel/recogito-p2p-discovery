@@ -11,6 +11,7 @@ class AnnotationDiscovery extends EventEmitter {
     this.shown = false
     this.targetUrl = targetUrl
     this.documents = []
+    this.userId = opts.userId || ''
     this.useP2P = !!opts.useP2P
     this.allowOutsideClick = !!opts.allowOutsideClick
 
@@ -47,10 +48,11 @@ class AnnotationDiscovery extends EventEmitter {
       <Discovery
         discovery={this}
         targetUrl={this.targetUrl}
-        onSave={this._handleDialogSave}
-        onCancel={this._handleDialogCancel}
+        userId={this.userId}
         useP2P={this.useP2P}
         allowOutsideClick={this.allowOutsideClick}
+        onSave={this._handleDialogSave}
+        onCancel={this._handleDialogCancel}
       />,
       this.node
     )

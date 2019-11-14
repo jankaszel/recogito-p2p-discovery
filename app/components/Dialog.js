@@ -53,12 +53,13 @@ const Url = styled.p`
 export default function Dialog({
   targetUrl,
   documents,
+  userId = '',
   useP2P,
   allowOutsideClick,
   onSave,
   onCancel,
 }) {
-  const [studyId, setStudyId] = useState('')
+  const [studyId, setStudyId] = useState(userId)
   const [complete, setComplete] = useState(false)
   const [selectedDocUrl, setSelectedDocUrl] = useState(null)
 

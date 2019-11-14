@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'http://example.com/foo',
     {
       allowOutsideClick: false,
+      userId: 'hermes',
       useP2P: true,
     }
   )

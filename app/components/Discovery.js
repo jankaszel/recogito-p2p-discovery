@@ -10,6 +10,7 @@ const normalizeDocs = documents =>
 export default function Discovery({
   discovery,
   targetUrl,
+  userId,
   useP2P,
   allowOutsideClick,
   onSave,
@@ -39,6 +40,7 @@ export default function Discovery({
       <Dialog
         targetUrl={targetUrl}
         documents={documents}
+        userId={userId}
         useP2P={useP2P}
         allowOutsideClick={allowOutsideClick}
         onSave={onSave}
