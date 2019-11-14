@@ -12,7 +12,7 @@ const TextInput = styled.input.attrs({
   padding: 9px;
   background: white;
 
-  font: inherit;
+  font: 18px/100% 'Inter', sans-serif;
   font-weight: 400;
 
   transition: border-color 125ms ease-out, box-shadow 125ms ease-out;
