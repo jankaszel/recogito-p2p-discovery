@@ -2,6 +2,8 @@
 
 An annotation discovery modal dialog developed for usage on a [fork of Recogito](https://github.com/falafeljan/recogito2-p2p) that [uses P2P annotation](https://github.com/falafeljan/from-me-to-you). Since storage isn't centralized in P2P networks, users can select in which ‘notebook’ (i.e., decentralized network swarm) they want to store their annotations in.
 
+![Example dialog](./modal.png)
+
 While this library functions independently of Recogito or P2P Web Annotation, it's developed with our approach to P2P annotation in mind. Also, certain functionality is tailored for use in studies, especially the required user-provided ID.
 
 ## Usage
