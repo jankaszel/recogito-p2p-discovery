@@ -1,0 +1,67 @@
+{
+  "name": "recogito-p2p-discovery",
+  "version": "0.1.0",
+  "author": "Jan Kaßel <jan@kassel.works",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falafeljan/recogito-p2p-discovery.git"
+  },
+  "keywords": [
+    "recogito",
+    "p2p",
+    "annotation",
+    "web annotation",
+    "linked data",
+    "jsonld",
+    "discovery"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falafeljan/recogito-p2p-discovery/issues"
+  },
+  "homepage": "https://github.com/falafeljan/recogito-p2p-discovery#readme",
+  "dependencies": {
+    "events": "^3.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false
+  }
+}
