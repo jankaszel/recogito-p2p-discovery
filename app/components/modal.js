@@ -5,6 +5,8 @@ export const Container = styled.div`
   position: fixed;
   left: 0;
   top: 0;
+  // oh well
+  z-index: 9999999999;
 
   display: flex;
   align-items: center;
