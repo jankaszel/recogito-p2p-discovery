@@ -21,6 +21,7 @@ export const Modal = styled.div`
 
   max-width: 700px;
   min-width: 500px;
+  margin: 20px;
   overflow: hidden;
 
   border-radius: 15px;
@@ -37,13 +38,14 @@ export const Header = styled.header`
   padding: 20px 25px;
 
   background: rgba(230, 230, 230);
-  font: 20px/100% 'Inter', sans-serif;
+  font: 18px/100% 'Inter', sans-serif;
   font-weight: 500;
 `
 
 export const Main = styled.main`
-  min-height: 250px;
-  font: 20px/100% 'Inter', sans-serif;
+  min-height: 300px;
+  max-height: 700px;
+  font: 18px/100% 'Inter', sans-serif;
   font-weight: 400;
 `
 
